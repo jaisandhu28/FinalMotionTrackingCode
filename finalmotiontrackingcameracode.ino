@@ -52,7 +52,7 @@ void loop()
         }
         else {} // do nothing
       }
-      else if (pos = 90){ // if the current position is 90 degrees
+      else if (pos == 90){ // if the current position is 90 degrees
         if (pixy.ccc.blocks[i].m_x > 150) { // if the block is to the right
           myservo.write(45); // move the servo motor to 45 degrees
           pos = 45; // update the current position
