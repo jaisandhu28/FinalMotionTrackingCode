@@ -67,6 +67,6 @@ void loop()
     if (pos == 90) { // if the current position is 90 degrees
       myservo.write(0); // move the servo motor to 0 degrees
       pos = 0; // update the current position
-      delay (750) // wait for the servo motor to move
+      delay (750); // wait for the servo motor to move
     }
   }
